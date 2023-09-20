@@ -13,7 +13,7 @@ html,
     text-align: center;
     font-family: "Title Font";
     font-size: 15rem;
-
+}
 .images{
     flex-wrap: wrap;
     margin: 15px;
