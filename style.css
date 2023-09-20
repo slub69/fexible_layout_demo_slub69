@@ -1,28 +1,33 @@
-@import "_variables";
-@import "_mixins";
 body,
 html,
 * {
-    margin: 0;
-    padding: 0;
     font-size: 10px;
     box-sizing: border-box;
-    background: antiquewhite;
+    background: #88a78e;
 }
+@font-face {
+    font-family: "Title Font";
+    src: url(Title\ Font.ttf);
+}
+#title{
+    text-align: center;
+    font-family: "Title Font";
+    font-size: 15rem;
 
-.parent{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: auto;
-    width: auto;
-}
 .images{
-    margin: 1px;
-    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
     justify-content: space-around;
-    height: 50vh;
-    width: 50vw;
-    border: 3px solid whitesmoke;
+    align-items: center;
+    align-content: space-between;
+}
+.animals{
+    margin: 5px;
+    height: 600px;
+    width: 600px;
+}
+#smurfcat{
+    height: 800px;
+    width: 800px;
+    align-self: center;
 }
