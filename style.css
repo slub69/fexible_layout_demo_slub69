@@ -7,7 +7,11 @@ html,
 }
 @font-face {
     font-family: "Title Font";
-    src: url(Title\ Font.ttf);
+    src: url(Wild\ Things.TTF);
+}
+@font-face {
+    font-family: "Pet Shop";
+    src: url(Pet\ Shop.otf);
 }
 #title{
     text-align: center;
@@ -15,6 +19,7 @@ html,
     font-size: 15rem;
 }
 .images{
+    display: flex;
     flex-wrap: wrap;
     margin: 15px;
     justify-content: space-around;
@@ -26,8 +31,29 @@ html,
     height: 600px;
     width: 600px;
 }
+.captions{
+    width: fit-content;
+    height: fit-content;
+    font-size: 9rem;
+    font-family: "Pet Shop";
+    font-weight: 1000;
+    text-align:center;
+}
+.imagewithtext{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
 #smurfcat{
-    height: 800px;
-    width: 800px;
-    align-self: center;
+    display: block;
+    height: 1500px;
+    width: 1500px;
+    align-items: center;
+}
+#smurfont{
+    font-family: "Pet Shop";
+    font-size: 18rem;
+    font-weight: 10000;
 }
