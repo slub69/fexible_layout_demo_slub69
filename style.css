@@ -74,6 +74,10 @@ body{
     align-items: center;
     border-radius: 50px;
 }
+.background_smurf_cat:hover{
+    background-color: #5ae3f5;
+    transform: rotate(3);
+}
 #smurf_text{
     font-family: "Pet Shop";
     font-size: 12rem;
@@ -89,6 +93,7 @@ body{
     margin: 0px;
 }
 .imagewithtext:hover {
-    transform: scale(1.07);
+    transform:scale(1.07);
     background-color: #5ae3f5;
+    transform: rotate(3);
 }
